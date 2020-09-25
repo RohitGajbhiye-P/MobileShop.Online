@@ -23,6 +23,7 @@ namespace MobileShop.Online.Models
         [Required(ErrorMessage ="please enter prize of a mobile")]
         public int? Price { get; set; }
         public string Color { get; set; }
+        public int MyProperty { get; set; }
 
         [Required(ErrorMessage ="Please select required language")]
         public string Language { get; set; }
